@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksOpedia</title>
+    <link rel="stylesheet" href="./assest/style/reset.css">
+    <link rel="stylesheet" href="./assest/style/nav.css">
+    <link rel="stylesheet" href="./assest/style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+
+    <nav>
+        <div class="logo">
+            <img src="./assest/media/logo.jpg" alt="BooksOpedia" id="logo">
+            BooksOpedia
+        </div>
+      
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+      
+        <ul class="nav-links">
+            <a href="#header"> <li onclick="closeMenu()">Home</li></a>
+            <a href="#info"> <li onclick="closeMenu()">About</li> </a>
+            <a href="#services-section"><li onclick="closeMenu()">Services</li></a>
+            <a href="#contactForm"> <li onclick="closeMenu()">Contact</li></a>
+        </ul>
+          
+      </nav>
+
+      <header id="header">
+        <img src="./assest/media/withoutBG.png" alt="BooksOpedia" id="withoutBG">
+        <span id="heading">BooksOpedia</span> 
+
+        <span id="despHead">Book Publicity Agency</span>
+        <a href="#contactForm"><input type="button" value="Learn More" id="LearnMore"></a>
+        <span id="desp">Turning pages into bestsellers...</span>
+      </header>
+
+      <div class="info" id="info">
+        <h2 id="Info_head">Get to know us</h2>
+        <div class="info_f">
+          <img src="./assest/media/store.png" alt="BooksOpedia Logo" id="Logo_div">
+          <div class="info_text">
+            <p>
+              Our passion for reading drives everything we do. We embarked on this journey because of a simple love for books and a burning desire to share that love with the world.
+              <br><br>
+              Our mission is clear: to bridge the gap between readers and authors, creating connections that transcend borders and genres. We believe that every book has a story to tell, and every author deserves a chance to be heard.
+              <br><br>
+              With a focus on visibility, we're committed to helping authors shine in the literary spotlight. Whether it's through tailored publicity campaigns or strategic marketing initiatives, we're here to support authors every step of the way.
+              <br><br>
+              What started as a passion project has now blossomed into a global endeavor, reaching authors from 12 different countries and counting. From bestsellers to debut novelists, we're proud to champion voices from diverse backgrounds and cultures.
+              <br><br>
+              Join us in our mission to celebrate the written word and empower authors to share their stories with the world. Together, let's turn the page on a new chapter in literary discovery.
+              <br><br>
+            </p>
+            <input type="button" value="Book A Free Discovery Call" id="discovery_call">
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <section class="services-section" id="services-section">
+        <h2>Our Services</h2>
+        <div class="services-flex">
+          <div class="service-card">
+            <img src="./assest/media/bookPublication.jpg" alt="Book Publicity Campaign" />
+            <p>Book Publicity Campaign</p>
+          </div>
+          <div class="service-card">
+            <img src="./assest/media/Social Media Management.jpg" alt="Social Media Management" />
+            <p>Social Media Management</p>
+          </div>
+          <div class="service-card">
+            <img src="./assest/media/YouTube Management.jpg" alt="YouTube Management" />
+            <p>YouTube Management</p>
+          </div>
+        </div>
+      </section>
+      
+      
+
+
+
+      <section class="service-section" id="book-campaign">
+        <div class="service-container" id="book-container">
+          <div class="service-image" id="book-image">
+            <img src="./assest/media/service1.jpg" alt="Book Publicity Campaign">
+          </div>
+          <div class="service-content" id="book-content">
+            <h2>Book Publicity Campaign</h2>
+            <p>
+              Our book publicity campaigns are expertly crafted to enhance your book's visibility and reader engagement...
+            </p>
+            <p>
+              From developing compelling promotional materials to orchestrating outreach to bloggers, influencers, and reviewers...
+            </p>
+            <p>
+              Whether launching a new title or reviving an old one, our campaigns captivate audiences and elevate your author brand.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+      <section class="service-section white-bg">
+        <div class="service-container">
+          
+          <div class="service-content">
+            <h2>Social Media Management</h2>
+            <p>
+              Social media is a powerful tool for connecting with readers and building a loyal fan base...
+            </p>
+            <p>
+              Our services craft an engaging presence across platforms like Facebook, Instagram, and more.
+            </p>
+            <p>
+              From content creation to analytics, we handle it all to help you grow and sell more books.
+            </p>
+          </div>
+          <div class="service-image">
+            <img src="./assest/media/sercive2.jpg" alt="Social Media Management">
+          </div>
+        </div>
+      </section>      
+      
+      
+      <section class="service-section">
+        <div class="service-container reverse">
+          <div class="service-content">
+            <h2>YouTube Management</h2>
+            <p>
+              Video content is a powerful way to engage audiences and build a strong personal brand...
+            </p>
+            <p>
+              We help create book summaries, trailers, interviews, and more to connect with readers visually.
+            </p>
+            <p>
+              Our strategies drive engagement and visibility for your book through dynamic video marketing.
+            </p>
+          </div>
+          <div class="service-image">
+            <img src="./assest/media/service3.jpg" alt="YouTube Management">
+          </div>
+        </div>
+      </section>
+      
+      
+
+
+
+
+      <section class="contact" id="contact">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h1>Get in Touch</h1>
+            <p><strong>We’d love to hear from you</strong></p>
+            <p>Have a recommendation, collaboration idea, or question? Let’s start a meaningful conversation.</p>
+            <p style="font-size: 1.5rem;">
+              <a href="https://www.youtube.com/@booksopedia" target="_blank"><i class="fab fa-youtube" style="margin-right: 15px; color: white;"></i></a>
+              <a href="https://www.instagram.com/booksopedia_" target="_blank"><i class="fab fa-instagram" style="margin-right: 15px; color: white;"></i></a>
+              <a href="https://www.linkedin.com/in/sourabhdubey7/" target="_blank"><i class="fab fa-linkedin" style="margin-right: 15px; color: white;"></i></a>
+              <a href="mailto:booksOpedia7@gmail.com"><i class="fas fa-envelope" style="color: white;"></i></a>
+            </p>
+            
+          </div>
+          <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+              <div style="display: flex; gap: 1rem;">
+                <input type="text" placeholder="First Name" required id="firstName" />
+                <input type="text" placeholder="Last Name" required id="lastName" />
+              </div>
+              <input type="email" placeholder="Email Address" required id="email" />
+              <input type="text" placeholder="Subject" required id="subject" />
+              <textarea rows="5" placeholder="Message" required id="message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+            
+          </div>
+        </div>
+      </section>
+    
+    
+    
+    
+    
+    
+
+<script src="./assest/script/nav.js"></script>      
+<script src="./assest/script/contact.js"></script>
+</body>
+</html>
