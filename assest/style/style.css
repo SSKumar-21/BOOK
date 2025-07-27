@@ -488,9 +488,16 @@ header::before {
   opacity: 1; 
 }
 
+.Names{
+  gap: 1rem;
+}
 
 @media (max-width: 768px) {
   .contact{
     height: auto;
+  }
+  .Names{
+    flex-direction: column;
+    gap: 0;
   }
 }  
